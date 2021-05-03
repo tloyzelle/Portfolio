@@ -48,12 +48,14 @@ nav {
 }
 
 nav a {
+    text-decoration: none;
     padding: 5px 10px;
     color: var(--light);
     background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
-    background-position: left;
+    background-position: bottom;
     transition: all .35s ease-in;
     background-repeat: no-repeat;
+    background-size: 100% 0.2em;
     font-size: 175%;
     margin-right: 10px
 
@@ -69,5 +71,4 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-
 
