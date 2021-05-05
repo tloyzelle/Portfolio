@@ -1,3 +1,4 @@
+/*color palette*/
 :root {
     --primary:darkolivegreen;
     --secondary:rgb(5, 27, 1);
@@ -19,6 +20,21 @@ p {
     margin: 3% 5%;
 }
 
+h1,
+h2,
+h3 {
+    margin:0
+}
+
+main {
+    margin-bottom: 20%;
+    margin-top: 35%;
+}
+
+.banner {
+    background-position: center;
+}
+
 .page_section {
     display: flex;
     flex-direction: column;
@@ -38,6 +54,7 @@ header {
 header h1 {
     color: var(--light);
     padding: 5px 1%;
+    font-size: 4vw;
 
 }
 
@@ -72,3 +89,6 @@ nav a:hover {
     margin-right: auto;
 }
 
+.contact address a {
+    text-decoration: none;
+}
