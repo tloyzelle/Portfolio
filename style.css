@@ -114,12 +114,17 @@ nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
+    justify-content: space-between;
 }
 
 .page_section > h2 {
     font-size: 3vw;
     border-right: 4px solid var(--tertiary);
     padding-right: 10px;
+}
+
+.page_section > div {
+    flex: 0 0 77%;
 }
 
 .contact address a {
@@ -133,7 +138,7 @@ nav a:hover {
 }
 
 .flex_item {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     text-decoration: none;
     color: var(--tertiary);
     margin: 5%;
@@ -144,11 +149,19 @@ nav a:hover {
     min-height: 150px;
     background-size: 150%;
     border: 5px solid var(--light);
+    background-blend-mode: soft-light;
     transition: all 0.5s;
 }
 
+.flex_item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
 .flex_item:hover {
-    background-color: var(--secondary);
+    color: var(--secondary);
+    background-color: none;
+
 }
 
 .flex_item div {
@@ -193,3 +206,77 @@ nav a:hover {
 }
 
 /*project images*/
+.surf_report {
+    background-image: url("../Portfolio/beach.jpg");
+}
+
+.led_wall {
+    background-image: url(../Portfolio/ledWall.jpg);
+}
+
+.calc {
+    background-image: url(../Portfolio/calc.jpg);
+}
+
+.pastel_puzzles {
+    background-image: url(../Portfolio/pastelPuzzles.jpg);
+}
+
+.run_buddy {
+    background-image: url(../Portfolio/02-run-buddy.jpg);
+}
+
+/*end portfolio project images*/
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 0.5% 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        padding: 0.5%;
+        margin-bottom: 1%;
+        font-size: 10vw;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    .page_section > h2,
+    .page_section > div {
+        flex: 0 0 100%;
+    }
+
+    .page_section > h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flex_item,
+    .flex_item:first-child {
+        flex-basis: 100%;
+    }
+
+    .flex_item:first-child {
+        min-height: 150px;
+    }
+
+    .banner {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
