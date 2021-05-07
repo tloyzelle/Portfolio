@@ -160,4 +160,36 @@ nav a:hover {
     font-size: 1.6rem;
 }
 
+.contact-section {
+    margin: 2% 0;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: var(--lighter);
+}
+
+.contact-section > h2 {
+    font-size: 3vw;
+    padding-right: 10px;
+    border-right: 4px solid var(--primary);
+}
+
+.contact-section a {
+    text-decoration: none;
+    margin: 5%;
+    color: var(--secondary);
+    margin-right: 5%;
+    background-image:linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-position: bottom;
+    transition: all .25s ease-in;
+    background-repeat: no-repeat;
+    background-size:100% 0.2em;  
+}
+
+.contact-section a:hover {
+    background-size: 100% 100%;
+    color: var(--secondary);
+}
+
 /*project images*/
