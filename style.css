@@ -72,7 +72,7 @@ header h1 {
     color: var(--light);
     background-color: var(--secondary);
     padding: 5px 1% 5px 3%;
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
 nav {
@@ -225,19 +225,19 @@ nav a:last-child {
 }
 
 .led_wall {
-    background-image: url(../Portfolio/ledWall.jpg);
+    background-image: url("../Portfolio/ledWall.jpg");
 }
 
 .calc {
-    background-image: url(../Portfolio/calc.jpg);
+    background-image: url("../Portfolio/calc.jpg");
 }
 
 .pastel_puzzles {
-    background-image: url(../Portfolio/pastelPuzzles.jpg);
+    background-image: url("../Portfolio/pastelPuzzles.jpg");
 }
 
 .run_buddy {
-    background-image: url(../Portfolio/02-run-buddy.jpg);
+    background-image: url("../Portfolio/02-run-buddy.jpg");
 }
 
 /*end portfolio project images*/
