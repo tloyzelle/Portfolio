@@ -220,12 +220,12 @@ nav a:last-child {
 }
 
 /*project images*/
-.surf_report {
-    background-image: url("../Portfolio/beach.jpg");
+.horiseon_refactor {
+    background-image: url("../Portfolio/top-screenshot-horiseon.png");
 }
 
-.led_wall {
-    background-image: url("../Portfolio/ledWall.jpg");
+.password_generator {
+    background-image: url("../Portfolio/password-generator01.png");
 }
 
 .calc {
