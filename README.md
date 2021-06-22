@@ -1,6 +1,7 @@
 # Portfolio
 
  Within the cite you can view work samples where I have used HTML, CSS, Javascript, Web APIs, and more softwares to create code, use the navigation to take you to different portions of the cite, and see the animation within the navigation and the contact section.
+ My github, LinkedIn, Resume, Email, and phone number are also all accesible from this page.
 There is also a responsive layout that changes as the page or view is changed.
 
 url: https://tloyzelle.github.io/Taegan-Loyzelle-Portfolio/
