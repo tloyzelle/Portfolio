@@ -220,24 +220,24 @@ nav a:last-child {
 }
 
 /*project images*/
-.horiseon_refactor {
-    background-image: url("../Portfolio/top-screenshot-horiseon.png");
+.project_marvel {
+    background-image: url("../Portfolio/marvel.png");
+}
+
+.coding_assessment {
+    background-image: url("../Portfolio/codequiz.png");
+}
+
+.scheduler {
+    background-image: url("../Portfolio/workday.png");
 }
 
 .password_generator {
     background-image: url("../Portfolio/password-generator01.png");
 }
 
-.calc {
-    background-image: url("../Portfolio/calc.jpg");
-}
-
-.pastel_puzzles {
-    background-image: url("../Portfolio/pastelPuzzles.jpg");
-}
-
-.run_buddy {
-    background-image: url("../Portfolio/02-run-buddy.jpg");
+.refactor {
+    background-image: url("../Portfolio/top-screenshot-horiseon.png");
 }
 
 /*end portfolio project images*/
