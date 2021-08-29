@@ -221,23 +221,23 @@ nav a:last-child {
 
 /*project images*/
 .project_marvel {
-    background-image: url("../Portfolio/marvel.png");
+    background-image: url("../Portfolio/images/marvel.png");
 }
 
 .coding_assessment {
-    background-image: url("../Portfolio/codequiz.png");
+    background-image: url("../Portfolio/images/codequiz.png");
 }
 
 .scheduler {
-    background-image: url("../Portfolio/workday.png");
+    background-image: url("../Portfolio/images/workday.png");
 }
 
 .password_generator {
-    background-image: url("../Portfolio/password-generator01.png");
+    background-image: url("../Portfolio/images/password-generator01.png");
 }
 
 .refactor {
-    background-image: url("../Portfolio/cooper&dans.png");
+    background-image: url("../Portfolio/images/cooper&dans.png");
 }
 
 /*end portfolio project images*/
