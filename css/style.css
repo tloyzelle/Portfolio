@@ -33,7 +33,7 @@ main {
 
 .banner {
     background-position: center;
-    background-image: url(../Portfolio/plant.jpg);
+    background-image: url(../images/plant.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -221,23 +221,23 @@ nav a:last-child {
 
 /*project images*/
 .project_marvel {
-    background-image: url("../Portfolio/images/marvel.png");
+    background-image: url("../images/marvel.png");
 }
 
 .coding_assessment {
-    background-image: url("../Portfolio/images/codequiz.png");
+    background-image: url("../images/codequiz.png");
 }
 
 .scheduler {
-    background-image: url("../Portfolio/images/workday.png");
+    background-image: url("../images/workday.png");
 }
 
 .password_generator {
-    background-image: url("../Portfolio/images/password-generator01.png");
+    background-image: url("../images/password-generator01.png");
 }
 
 .refactor {
-    background-image: url("../Portfolio/images/cooper&dans.png");
+    background-image: url("../images/cooper&dans.png");
 }
 
 /*end portfolio project images*/
