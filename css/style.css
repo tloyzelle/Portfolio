@@ -40,7 +40,7 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    min-height: 32vh;
+    min-height: 20vh;
     text-align: right;
     color: var(--primary);
     padding: 5px 10px;
@@ -69,8 +69,8 @@ header {
 }
 
 header h1 {
-    color: var(--light);
-    background-color: var(--secondary);
+    color: var(--tertiary);
+    background-color: var(--lighter);
     padding: 5px 1% 5px 3%;
     font-size: 2vw;
 }
