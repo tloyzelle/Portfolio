@@ -28,10 +28,8 @@ There is no installation to this application.
 
 ## Use
 
-<img width="1394" alt="Screen Shot 2021-06-22 at 5 56 00 PM" src="https://user-images.githubusercontent.com/82417321/123004847-33e8bf80-d383-11eb-811f-ae5e266e50b7.png">
-<img width="1389" alt="Screen Shot 2021-06-22 at 5 56 10 PM" src="https://user-images.githubusercontent.com/82417321/123004870-3ba86400-d383-11eb-89be-20ad70e2eefd.png">
+## License<img width="1389" alt="Screen Shot 2021-11-09 at 3 06 39 PM" src="https://user-images.githubusercontent.com/82417321/140996899-b8b29945-e723-4488-8040-d0ea3c9eb967.png">
 
-## License
 This application is under the MIT license.
 
 ## Questions
